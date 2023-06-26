@@ -29,12 +29,12 @@ resource "aws_eks_cluster" "cluster" {
 
   vpc_config {
     subnet_ids = [
-      aws_subnet.private-eu-north-1a.id,
-      aws_subnet.private-eu-north-1b.id,
-      aws_subnet.private-eu-north-1c.id,
-      aws_subnet.public-eu-north-1a.id,
-      aws_subnet.public-eu-north-1b.id,
-      aws_subnet.public-eu-north-1c.id
+      aws_subnet.private-eu-central-1a.id,
+      aws_subnet.private-eu-central-1b.id,
+      aws_subnet.private-eu-central-1c.id,
+      aws_subnet.public-eu-central-1a.id,
+      aws_subnet.public-eu-central-1b.id,
+      aws_subnet.public-eu-central-1c.id
     ]
   }
 
